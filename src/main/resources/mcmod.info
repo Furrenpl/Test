@@ -1,0 +1,16 @@
+[
+{
+  "modid": "test",
+  "name": "Furren's test mod",
+  "description": "My personal test Minecraft mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Furren"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
