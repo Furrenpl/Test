@@ -1,0 +1,6 @@
+{
+    "test_sound": {
+        "category": "master",
+        "sounds": ["*test*:giga_coal_sound"]
+    }
+}

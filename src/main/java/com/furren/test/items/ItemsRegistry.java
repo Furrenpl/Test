@@ -5,11 +5,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.furren.test.init.ItemInit;
+import com.furren.test.main.Main;
 
 import net.minecraft.client.renderer.block.model.ModelBakery;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.NonNullList;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
@@ -41,6 +44,7 @@ public class ItemsRegistry {
 	private static void registryModel(Item item) {
 	    final ResourceLocation regName = item.getRegistryName();
 	    final ModelResourceLocation mrl = new ModelResourceLocation(regName, "inventory");
+
 	    ModelBakery.registerItemVariants(item, mrl);
 	    ModelLoader.setCustomModelResourceLocation(item, 0, mrl);
 	}

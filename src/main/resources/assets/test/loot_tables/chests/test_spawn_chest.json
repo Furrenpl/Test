@@ -1,0 +1,30 @@
+{
+    "pools":[
+        {
+        "name": "chest_1",
+        "rolls": 2,
+        "entries":[
+            {
+                "type":"item",
+                "name":"test:monster_energy_white",
+                "weight": 4000
+            },
+            {
+                "type":"item",
+                "name":"test:monster_energy_yellow",
+                "weight": 3000
+            },
+            {
+                "type":"item",
+                "name":"test:monster_energy_black",
+                "weight": 5000
+            },
+            {
+            "type":"item",
+            "name":"test:diamond_apple",
+            "weight":1000
+            }
+        ]
+        }
+    ]
+}

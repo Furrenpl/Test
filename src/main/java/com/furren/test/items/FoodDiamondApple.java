@@ -18,8 +18,9 @@ public class FoodDiamondApple extends ItemFood {
         this.setRegistryName(name);
         this.setUnlocalizedName(name);
         this.setAlwaysEdible();
-        this.setCreativeTab(Main.CTAB);
         
+        
+        this.setCreativeTab(Main.CTAB);
         ItemInit.ITEMS.add(this);
     }
 	@Override

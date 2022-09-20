@@ -1,8 +1,20 @@
+itemGroup.test=Furren's test mod :^)
+
 item.ironrod.name=Железная Палка
 item.diamond_apple.name=Алмазное Яблоко
+item.giga_coal.name=ГИГАУГОЛЬ
+
 item.steel_ingot.name=Стальной Слиток
 item.steel_axe.name=Стальной Топор
 item.steel_pickaxe.name=Стальная Кирка
 item.steel_hoe.name=Стальная Мотыга
 item.steel_spade.name=Стальная Лопата
 item.steel_sword.name=Стальной Меч
+item.steel_helmet.name=Стальной Шлем
+item.steel_chestplate.name=Стальной Нагрудник
+item.steel_leggings.name=Стальные Поножи
+item.steel_boots.name=Стальные Ботинки
+
+item.monster_energy_black.name=Black Monster
+item.monster_energy_white.name=White Monster
+item.monster_energy_yellow.name=Yellow Monster
